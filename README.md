@@ -1,97 +1,82 @@
 # Road-Accident-Dashboard-Excel
-🚦 Road Safety Analytics: Interactive Road Accident Dashboard (2021-2022)
+🚗 Road Accident Dashboard (Excel)
 
-**Description / Purpose 
+🔹 Description / Purpose
 
-A comprehensive, dynamic, and interactive data visualization tool built in Excel to analyze road accident casualties across the years 2021 and 2022. The dashboard is designed to provide rapid insights for stakeholders like the Ministry of Transport, Police Force, and Transport Operators, focusing on casualty severity, monthly trends, and contextual factors like road type and location.
+A comprehensive, dynamic, and interactive data visualization tool built in Excel to analyze road accident casualties across 2021 and 2022.
+Designed to provide rapid insights for stakeholders like the Ministry of Transport, Police Force, and Transport Operators, focusing on casualty severity, monthly trends, and contextual factors like road type and location.
 
+🔹 Tech Stack
 
-**Tech Stack 
+Microsoft Excel – Main platform for dashboard creation and visualization.
 
-The dashboard was built using the following tools and technologies: 
+Pivot Tables & Slicers – Enabled interactive filtering and data exploration.
 
-Microsoft Excel – Main data visualization platform used for report creation.
+Formulas & Logic – Used for KPI calculation and establishing data relationships.
 
-Pivot Tables & Slicers – Used to manage and enable interactive filtering of the raw data.
+Custom Charting – Doughnut, Bar, and Line charts for intuitive visualization.
 
-Formulas & Logic – Employed for calculating primary and secondary KPIs and establishing relationships between data points.
+🔹 Data Source
 
-Custom Charting – Utilized various chart types (Doughnut, Bar, Line) for clear and intuitive visualization of casualty distribution and trends.
+Source: Google Sheets Dataset
 
+Dataset Size: ≈417,883 records (2021–2022)
 
-**Data Source 
+Attributes: Severity, Vehicle Type, Road Type, Road Surface, Location/Area, Time (Day/Night), and Date.
 
-Source: https://docs.google.com/spreadsheets/d/1R_uaoZL18nRbqC_MULVne90h3SdRbAyn/edit?usp=sharing&ouid=109946332336930572524&rtpof=true&sd=true
+🔹 Business Problem
 
-Data Structure: Contains records of ≈417,883 total casualties over two years, categorized by:
+Road accidents are a critical public safety issue requiring targeted interventions.
 
-Severity (Fatal, Serious, Slight)
+Stakeholders need quick answers to questions such as:
 
-Vehicle Type (Car, Motorcycle, Lorry, Bus, etc.)
+What is the percentage breakdown of casualties (Fatal, Serious, Slight)?
 
-Context (Road Type, Road Surface, Location/Area, Day/Night)
+Which vehicle type contributes most to casualties?
 
-Date (for monthly trend analysis)
+How do casualties vary between Urban vs Rural areas or Day vs Night?
 
+How does the current year compare to the previous year monthly?
 
-**Features / Highlights 
+🔹 Goal of the Dashboard
 
+Deliver a single-screen, interactive tool to:
 
-*Business Problem 
+Monitor road safety performance using KPIs.
 
-Road accidents are a critical public health and safety issue, requiring timely and targeted intervention. Stakeholders need a single, reliable source to quickly answer key questions like:
+Identify high-risk areas based on road and surface type.
 
-What is the percentage breakdown of casualty severity (Fatal, Serious, Slight)?
+Support data-driven decisions for key departments.
 
-Which vehicle type is involved in the highest number of casualties?
-
-How do casualties differ between Urban and Rural areas, or Day and Night?
-
-How does the current year's performance compare to the previous year monthly?
-
-
-**Goal of the Dashboard 
-
-To deliver an interactive, single-screen visual tool that: 
-
-Monitors overall road safety performance via primary and secondary KPIs.
-
-Identifies high-risk areas based on context (Road Type, Surface, Location).
-
-Supports data-driven decision-making for stakeholders like the Police Force and Emergency Services Department.
-
-
-**Walkthrough of Key Visuals (KPIs & Charts) 
-
-Key Performance Indicators (KPIs):
+🔹 Key Visuals (KPIs & Charts)
 
 Total Casualties: 417,883
 
-Fatal Casualties: 7,135 (1.7% of total)
+Fatal Casualties: 7,135 (1.7%)
 
-Slight Casualties: 351,436 (84.1% of total)
+Slight Casualties: 351,436 (84.1%)
 
-CY vs PY Casualties Monthly Trend (Line Chart): Compares 2022 casualties against 2021 casualties on a month-by-month basis to visualize performance and seasonality.
+CY vs PY Monthly Trend (Line Chart): Compares 2022 vs 2021 casualties.
 
-Casualties by Road Type (Bar Chart): Shows the distribution across Single Carriageway, Dual Carriageway, Roundabout, etc., highlighting Single Carriageway as the most common location (≈309.7K).
+Casualties by Road Type (Bar Chart): Single Carriageway leads with ≈309.7K.
 
-Casualties by Road Surface (Pie Chart): Breaks down casualties between Dry (≈276K) and Wet (≈115K) surfaces to assess weather impact.
+Casualties by Road Surface (Pie Chart): Dry ≈276K, Wet ≈115K.
 
-Casualties by Location/Area (Doughnut Chart): Compares Rural (≈162.0K) vs. Urban (≈255.9K) incidents, indicating urban areas as a higher-risk location.
+Casualties by Area (Doughnut Chart): Urban ≈255.9K vs Rural ≈162.0K.
 
-Stakeholder Panel: A prominent list of all users/departments who benefit from this analysis (Ministry of Transport, Police Force, Transport Operators, etc.).
+Stakeholder Panel: Lists all users/departments benefiting from analysis.
 
+🔹 Business Impact & Insights
 
-**Business Impact & Insights 
+Targeted Policing: Identify high-casualty areas for focused patrolling.
 
-Targeted Policing: The Police Force can use the Casualties by Location/Area breakdown to allocate patrols and resources more heavily in high-casualty areas (e.g., Urban areas).
+Infrastructure Investment: Guide maintenance and safety improvements.
 
-Infrastructure Investment: The Casualties by Road Type and Road Surface data can guide the Ministry of Transport and Road Transport Department on prioritizing road maintenance or safety installations.
+Policy & Awareness: Detect casualty spikes for preventive campaigns.
 
-Policy & Awareness: Trend analysis helps identify months where casualties spike, allowing Traffic Management Agencies to launch preemptive awareness campaigns.
+Emergency Preparedness: Help plan emergency response for peak times.
 
-Emergency Preparedness: The Emergency Services Department can anticipate peak times and high-risk areas based on Day/Night and monthly trends.
+🔹 Screenshots / Demo
 
+GitHub Project Image
 
-**Screenshots / Demos 
-https://github.com/SaniyaPathan12332/Road-Accident-Dashboard-Excel/blob/main/Road-Accident-Dashboard.png
