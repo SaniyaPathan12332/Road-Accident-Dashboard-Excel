@@ -77,6 +77,6 @@ Policy & Awareness: Detect casualty spikes for preventive campaigns.
 Emergency Preparedness: Help plan emergency response for peak times.
 
 🔹 Screenshots / Demo
-
+https://github.com/SaniyaPathan12332/Road-Accident-Dashboard-Excel/blob/main/Road-Accident-Dashboard.png
 
 
